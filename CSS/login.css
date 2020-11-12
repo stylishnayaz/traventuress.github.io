@@ -1,0 +1,123 @@
+*{
+
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	font-family: 'poppins',sans-serif;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #555;
+	background: #ecf0f3;
+}
+.login-div{
+	width: 370px;
+	height: 580px;
+	padding: 50px 35px 35px 35px;
+    border-radius: 40px;
+    background: #ecf0f3;
+    box-shadow: 12px 13px 20px #cbced1,
+                -13px -12px #ffffffba;
+}
+.logo{
+	background: url('../images/luggage.png');
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	box-shadow: 
+	/*logo shadow*/
+	0px 0px 2px #5f5f5f,
+	/*offset*/
+	0px 0px 5px #ecf0f3,
+	/*bottom right*/
+	8px 8px 15px #a7aaa7,
+	/*top left*/
+	-8px -8px 15px #ffffffba;
+}
+.title{
+	text-align: center;
+	font-size: 28px;
+	padding-top: 24px;
+	letter-spacing: 0.5px;
+}
+.sub-title{
+	text-align: center;
+	font-size: 15px;
+	padding-top: 20px;
+	letter-spacing: 3px;
+}
+.fields{
+	width: 110%;
+	padding: 35px 15px 5px 5px;
+}
+.fields input{
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+	color: #555;
+	padding: 20px 10px 	20px 5px;
+}
+.username,.password{
+	margin-bottom: 10px;
+	border-radius: 25px;
+	box-shadow: inset 8px 8px 8px #cbced1,
+	                  8px -4px 18px #ffffffba;
+}
+.fields svg{
+	height: 22px;
+	margin: 0 10px -6px 6px;
+}
+.signin-button {
+  outline: none;
+  border:none;
+  cursor: pointer;
+  width:100%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+  color:#fff;
+  text-align: center;
+  background: #24cfaa;
+  box-shadow: 3px 3px 8px #b1b1b1,
+              -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+
+.signin-button:hover {
+  background:#2fdbb6;
+}
+.signin-button:active {
+  background:#1da88a;
+}
+
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color:#aaa;
+  font-size: 15px;
+}
+
+ .sci{
+  position: relative;
+  display: flex;
+}
+ .sci li{
+  list-style: none;
+   margin-right: 25px;
+  margin-top:-10px;
+}
+ .sci li a{
+  text-decoration: none;
+}
